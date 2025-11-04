@@ -40,7 +40,6 @@ The project includes machine learning models for churn prediction:
 - Logistic Regression
 - Random Forest
 - K-Nearest Neighbors
-- Support Vector Machine
 - Decision Tree
 
 Feature importance is also analyzed using Random Forest.
