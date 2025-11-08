@@ -1,7 +1,5 @@
 # Customer Churn Analysis
-
-![Power BI Dashboard](Dashboard_Churn.png)
-
+![Customer Churn](Customer.png)
 ## Project Overview
 This project analyzes customer churn in a telecommunications company. The goal is to identify which customers are more likely to leave the service based on features such as demographics, subscription type, and service usage.
 
@@ -35,7 +33,18 @@ The project includes static visualizations to understand the dataset and the rel
 In addition to Python analysis, the project involved **SQL-based data analysis and ETL processes**:  
 - Extracted data from databases using **SQL Developer / Management Studio**  
 - Cleaned and transformed the dataset for analysis  
-- Loaded the cleaned data into a structured format ready for modeling  
+- Loaded the cleaned data into a structured format ready for modeling
+  
+## Power BI Dashboard
+A **Power BI dashboard** was created to visualize key metrics and insights from the churn data:  
+
+- **Churn trends by contract type, tenure, and payment method**  
+- **Interactive filters** for demographics and services  
+- **Ready for business reporting and decision-making**  
+
+> Screenshot of the Power BI dashboard:  
+![Power BI Dashboard](Dashboard_Churn.PNG)
+
 
 ## Models
 The project includes machine learning models for churn prediction:
