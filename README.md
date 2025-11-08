@@ -1,7 +1,6 @@
 # Customer Churn Analysis
 
-![Customer Churn](Customer.png)
-![Power BI Dashboard](PowerBi/Dashboard_Churn.png)
+![Power BI Dashboard](Dashboard_Churn.png)
 
 ## Project Overview
 This project analyzes customer churn in a telecommunications company. The goal is to identify which customers are more likely to leave the service based on features such as demographics, subscription type, and service usage.
