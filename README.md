@@ -1,6 +1,7 @@
 # Customer Churn Analysis
 
 ![Customer Churn](customer_churn.png)
+![Power BI Dashboard](PowerBi/Dashboard_Churn.png)
 
 ## Project Overview
 This project analyzes customer churn in a telecommunications company. The goal is to identify which customers are more likely to leave the service based on features such as demographics, subscription type, and service usage.
@@ -16,7 +17,6 @@ It contains **7043 rows and 21 columns**, including:
 - **Services:** `PhoneService`, `InternetService`, `OnlineSecurity`, `TechSupport`, etc.
 - **Target variable:** `Churn`
 
-> Note: No oversampling or SMOTE techniques were applied; the models were trained on the original dataset.
 
 ## Key Insights
 - Customers with **electronic check PaymentMethod** are more likely to churn.  
@@ -32,8 +32,11 @@ The project includes static visualizations to understand the dataset and the rel
 - Distribution of churn by contract type
 - Monthly charges vs churn
 - Senior citizens vs churn
-
-> Interactive Plotly charts can be viewed in the Jupyter Notebook or Google Colab.
+## SQL & ETL
+In addition to Python analysis, the project involved **SQL-based data analysis and ETL processes**:  
+- Extracted data from databases using **SQL Developer / Management Studio**  
+- Cleaned and transformed the dataset for analysis  
+- Loaded the cleaned data into a structured format ready for modeling  
 
 ## Models
 The project includes machine learning models for churn prediction:
