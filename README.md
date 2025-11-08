@@ -1,6 +1,6 @@
 # Customer Churn Analysis
 
-![Customer Churn](customer_churn.png)
+![Customer Churn](Customer.png)
 ![Power BI Dashboard](PowerBi/Dashboard_Churn.png)
 
 ## Project Overview
